@@ -8,9 +8,10 @@ Pagina de parte practica de Programacion Competitiva.
 
 #### Links Utiles
 * [Canal de discord](https://discord.gg/95kApXVUtE)
-* [Notebook *El Rejunte*](https://github.com/matramos/elrejunte)
+* [Carpeta de teoria](https://mega.nz/folder/T41RQRaJ#hL8WCa213pOFeP6ThN0yvQ)
 * [Beecrowd](https://www.beecrowd.com.br/judge/es/disciplines/view/10497)
 * [Codeforces](https://codeforces.com/)
+* [Notebook *El Rejunte*](https://github.com/matramos/elrejunte)
 
 #### Introduccion a Programacion Competitiva
 * [Video de introduccion](https://www.youtube.com/watch?v=v5nbBQxsmxw)
