@@ -3,6 +3,7 @@ Pagina de parte practica de Programacion Competitiva.
 
 #### ICPC 🎈
 * [Training Camp Argentina](https://www.pc-arg.com/tc-arg)
+* [Inscripcion al Training Camp Argentina](https://forms.gle/f99F7xtspEPmTbJy9)
 * [TAP (Torneo Argentino de Programacion)](http://torneoprogramacion.com.ar/)
 * [ICPC](https://icpc.global/)
 
