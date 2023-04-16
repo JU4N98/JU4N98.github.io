@@ -31,7 +31,7 @@ while(cin >> s){
 }
 ```
 ---
-#### 2065 - Supermaket Line
+#### 2065 - Supermarket Line
 **Problema:** dado una fila de clientes (donde cada cliente lleva una cantidad $C_{i}$ de items) que se atienden en el orden dado, y dado ciertos cajeros (donde cada cajero procesa un item en un tiempo $V_{i}$), determinar el tiempo en el que se atienden a todos los clientes, sabiendo que si hay multiples cajeros disponibles, el de menor indice es el que atiende al siguiente cliente.
 
 **Solucion:** este es un problema de simulacion:
