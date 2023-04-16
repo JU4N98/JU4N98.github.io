@@ -14,5 +14,8 @@ Pagina de parte practica de Programacion Competitiva.
 * [Codeforces](https://codeforces.com/)
 * [Notebook *El Rejunte*](https://github.com/matramos/elrejunte)
 
-#### Introduccion a Programacion Competitiva
+#### Guia 1 - Introduccion a Programacion Competitiva
 * [Video de introduccion](https://www.youtube.com/watch?v=v5nbBQxsmxw)
+
+#### Guia 3 - STL: queue, deque & priority queue
+* [Tutorial](https://ju4n98.github.io/guide_3)
