@@ -108,7 +108,6 @@ Para llevar los tiempos de demora, cuando se ejecuta un proceso se suma a la res
 
 **Codigo:**
 ```cpp
-int n;
 typedef vector<ll> event;
 
 int n;
