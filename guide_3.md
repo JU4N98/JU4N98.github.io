@@ -30,7 +30,7 @@ while(cin >> s){
 	cout << "\n";
 }
 ```
-
+---
 #### 2065 - Supermaket Line
 **Problema:** dado una fila de clientes (donde cada cliente lleva una cantidad $C_{i}$ de items) que se atienden en el orden dado, y dado ciertos cajeros (donde cada cajero procesa un item en un tiempo $V_{i}$), determinar el tiempo en el que se atienden a todos los clientes, sabiendo que si hay multiples cajeros disponibles, el de menor indice es el que atiende al siguiente cliente.
 
@@ -85,7 +85,7 @@ while(sz(client) || sz(events)){
 
 cout << t << "\n";
 ```
-
+---
 #### 1633 - SBC
 
 **Problema:** dada una CPU que puede ejecutar un proceso a la vez, y un conjunto de procesos, donde el i-esimo se encuentra definido por $t_i$ (el tiempo de llegada del proceso a la CPU, no puede ser ejecutado antes de su llegada) y $c_i$ (las unidades de tiempo de CPU que consume), determinar la menor sumatoria de espera del conjunto de procesos.
