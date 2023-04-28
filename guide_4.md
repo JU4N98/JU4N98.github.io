@@ -116,6 +116,9 @@ int solve_ceil(const vector<vector<int>> &mat){
 Para resolver los lados:
 
 ```cpp
+const int dr[4] = {1,-1,0,0};
+const int dc[4] = {0,0,1,-1};
+
 int sgn(int a, int b){
 	if (a-b > 0) return 1;
 	if (a-b == 0) return 0;
