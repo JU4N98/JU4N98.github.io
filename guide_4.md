@@ -2,11 +2,11 @@
 
 #### 1431 - Klingon Levels
 
-**Problema:**
+**Problema:** dada N divisiones, con $K_i$ alumnos en la i-esima division, donde cada alumno tiene asociado un nivel $T_i$, elegir un T que divida cada division en nivel basico (los alumnos con $T_i <= T$) y nivel avanzado (los alumnos con $T_i > T$) que minimice el acumulado de diferencias de cada tipo. 
 
-**Solucion:**
+**Solucion:** calcular la respuesta para cada T posible, para esto: iteramos sobre cada division, sobre cada T posible y sumamos la diferencia obtenida para dicho T en dicha division.
 
-**Complejidad:**
+**Complejidad:** por cada division, itero sobre cada T posible, y busco el primer alumno que sea mayor a T, si tenemos los estudiantes de cada division ordenados podemos hallar con la funcion _upper_bound_ dicho elemento en $O(log(K))$. La complejidad resultante es $O(N*T*log(MAXK))$
 
 **Codigo:**
 ```cpp
