@@ -88,6 +88,9 @@ Cada celda sera recorrida una vez por floodfill $O(R*C)$ y dos veces para resolv
 **Codigo:**
 Para resolver el techo:
 ```cpp
+const int dr[4] = {1,-1,0,0};
+const int dc[4] = {0,0,1,-1};
+
 void floodfill(int r, int c, int R, int C, vector<vector<bool>> &visi, const vector<vector<int>> &mat){
 	forn(i,4){
 		int nr = R + dr[i], nc = C + dc[i];
@@ -116,8 +119,6 @@ int solve_ceil(const vector<vector<int>> &mat){
 Para resolver los lados:
 
 ```cpp
-const int dr[4] = {1,-1,0,0};
-const int dc[4] = {0,0,1,-1};
 
 int sgn(int a, int b){
 	if (a-b > 0) return 1;
