@@ -19,3 +19,6 @@ Pagina de parte practica de Programacion Competitiva.
 
 #### Guia 3 - STL: queue, deque & priority queue
 * [Tutorial](https://ju4n98.github.io/guide_3)
+
+#### Guia 4 - STL: maps & algorithms
+* [Tutorial](https://ju4n98.github.io/guide_3)
