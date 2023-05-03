@@ -156,3 +156,73 @@ int solve_wall(vector<vector<int>> &mat){
 	return ans;
 }
 ```
+
+### 1053 - Dynamic Frog
+
+**Problema:** dado una laguna de largo D, y N rocas, donde cada roca puede ser Big (no se hunde al saltar sobre ella) o Small (se hunde al saltar sobre ella). Minimizar el salto maximo, si la rana tiene que ir y volver saltando por dichas piedras.
+
+**Solucion:** 
+* Es facil de ver que siempre tenemos que pisar las piedras Big.
+* Ahora, que hacemos con las Small? La solucion es intercalar saltos en las piedras Small a la ida y pisar todas las que no se hayan hundido a la vuelta.
+
+**Complejdad:** hay varias formas de implementarlo, si usamos un map para llevar las piedras y luego borrarlas, podemos hacerlo en complejidad $O(N*log(N))$.
+
+**Codigo:**
+
+```cpp
+
+pair<int,char> parse (const string &in){
+	pair<int,char> ret = {0,'S'};
+	ret.snd = in[0];
+	
+	forr(i,2,sz(in))
+		ret.fst = ret.fst * 10 + (in[i] - '0');
+	
+	return ret;
+}
+
+int jump (map<int,char> &rock, bool force_jump) {
+	
+	int pre = 0, ans = 0;
+	bool odd = true;
+	vector<int> to_erase;
+	foraint(it,rock){
+		if(it->snd == 'B'){
+			ans = max(ans, it->fst - pre); 
+			pre = it->fst;
+		}else{
+			if(odd  || force_jump){
+				to_erase.pb(it->fst);
+				ans = max(ans, it->fst - pre);
+				pre = it->fst;
+			}
+			odd = !odd;
+		}
+	}
+	
+	forn(i,sz(to_erase))
+		rock.erase(rock.find(to_erase[i]));
+	
+	return ans;
+}
+
+int t; cin >> t;
+forn(T,t){
+	int n, d; cin >> n >> d;
+	
+	map<int,char> rock;
+	rock[0] = 'B';
+	rock[d] = 'B';
+	forn(N,n){
+		string in; cin >> in;
+		pair<int,char> ret = parse(in);
+		assert(rock.count(ret.fst) == 0);
+		rock[ret.fst] = ret.snd; 
+	}
+	
+	int ans = jump(rock,false);
+	ans = max(ans, jump(rock,true));
+	
+	cout << "Case " << T+1 << ": " << ans << "\n";
+}
+```
