@@ -22,3 +22,8 @@ Pagina de parte practica de Programacion Competitiva.
 
 #### Guia 4 - STL: maps & algorithms
 * [Tutorial](https://ju4n98.github.io/guide_4)
+
+#### Guia 5 - Busqueda completa y backtracking
+
+#### Guia 6 - Strings
+* [Rabin - Karp (hashing)](https://cp-algorithms.com/string/rabin-karp.html)
