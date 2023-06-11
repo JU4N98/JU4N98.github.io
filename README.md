@@ -24,6 +24,7 @@ Pagina de parte practica de Programacion Competitiva.
 * [Tutorial](https://ju4n98.github.io/guide_4)
 
 #### Guia 5 - Busqueda completa y backtracking
+* [Tutorial](https://ju4n98.github.io/guide_5)
 
 #### Guia 6 - Strings
 * [Rabin - Karp (hashing)](https://cp-algorithms.com/string/rabin-karp.html)
