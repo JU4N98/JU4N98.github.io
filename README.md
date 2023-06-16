@@ -28,3 +28,5 @@ Pagina de parte practica de Programacion Competitiva.
 
 #### Guia 6 - Strings
 * [Rabin - Karp (hashing)](https://cp-algorithms.com/string/rabin-karp.html)
+* [KMP - Prefix function](https://cp-algorithms.com/string/prefix-function.html)
+* [Z Function](https://cp-algorithms.com/string/z-function.html)
