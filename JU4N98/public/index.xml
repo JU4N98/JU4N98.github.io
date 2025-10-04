@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Juan Pablo Cabaña</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in About Me on Juan Pablo Cabaña</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/</guid>
+      <description>&lt;h1 id=&#34;blog&#34;&gt;Blog&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;&#xA;&lt;p&gt;Feel free to reach me:&lt;/p&gt;&#xA;&lt;p&gt;📧 &lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:jp.cabana@icloud.com&#34;&gt;jp.cabana@icloud.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;💻 &lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/JU4N98&#34;&gt;JU4N98&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;🐦 &lt;strong&gt;Twitter/X&lt;/strong&gt; &lt;a href=&#34;https://x.com/_juancabana&#34;&gt;JP&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;📍 &lt;strong&gt;Based in:&lt;/strong&gt; Shanghai, China&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
