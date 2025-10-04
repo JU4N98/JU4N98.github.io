@@ -2,3 +2,6 @@ baseURL = 'https://ju4n98.github.io'
 languageCode = 'en-us'
 title = 'Juan Pablo Cabaña'
 theme = 'hugo-bearblog'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
