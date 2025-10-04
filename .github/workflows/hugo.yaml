@@ -20,11 +20,10 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Change to subdirectory
-        run: cd JU4N98
-
       - name: Build
-        run: hugo --minify
+        run: |
+          cd JU4N98
+          hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
