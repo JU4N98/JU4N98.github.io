@@ -20,6 +20,9 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Change to subdirectory
+        run: cd JU4N98
+
       - name: Build
         run: hugo --minify
 
