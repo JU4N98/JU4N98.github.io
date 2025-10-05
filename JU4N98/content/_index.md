@@ -4,7 +4,7 @@ title = 'About Me'
 +++
 
 ## About Me 
-I born in 1998 in [_Esperanza_](https://es.wikipedia.org/wiki/Esperanza_(Santa_Fe)), Argentina, a small town of 45K inhabitants. I studied Chemical Technician in High School and Information System Engineer in College.
+I was born in 1998 in [_Esperanza_](https://es.wikipedia.org/wiki/Esperanza_(Santa_Fe)), Argentina, a small town of 45K inhabitants. I studied Chemical Technician in High School and Information System Engineer in College.
 
 During my Middle and High School studies I participated in [_Olimpíada Matemática Argentina_](https://www.oma.org.ar/) and Olimpiada Argentina de Química, the math and chemistry national olympiads from Argentina.
 
